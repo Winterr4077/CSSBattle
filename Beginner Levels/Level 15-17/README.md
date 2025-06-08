@@ -4,7 +4,7 @@ Change the opacity of the <div> from 1 to 0.5
 
 This will make it 50% opaque (50% transparent), thus revealing the background behind it.
 
-``
+```
 
 Now make it fully transparent by giving it an opacity of 0
 
