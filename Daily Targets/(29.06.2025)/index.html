@@ -1,0 +1,63 @@
+<div class="box blue"></div>
+<div class="box green"></div>
+<div class="box red"></div>
+<div class="box yellow"></div>
+<div class="circle mid"></div>
+<div class="circle left"></div>
+<div class="circle right"></div>
+<style>
+
+  .box {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+  }
+  .blue {
+    background: #394257;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .green {
+    background: #48BF7D;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .red {
+    background: #D24444;
+    bottom: 0;
+    left: 0;
+  }
+
+  .yellow {
+    background: #FADE8B;
+    bottom: 0;
+    right: 0;
+  }
+
+  .circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .mid {
+    top: 110px;
+    z-index: 2;
+    right: 160px;
+  }
+
+  .left {
+    top: 110px;
+    left: 30px;
+  }
+
+  .right {
+    top: 110px;
+    right: 30px;
+  }
+</style>
