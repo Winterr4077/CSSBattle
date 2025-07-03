@@ -1,4 +1,4 @@
-<h1 align="center">CSSBattle – Target (30/7/2025)</h1>
+<h1 align="center">CSSBattle – Target (02/7/2025)</h1>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1f49977e-887b-49ea-b0cf-bcada2e5711f">
