@@ -1,0 +1,46 @@
+<div class="square"></div>
+<div class="thin"></div>
+<style>
+  * {
+    background: #504B72;
+    margin: 0;
+  }
+
+  .square {
+    width: 100px;
+    height: 60px;
+    box-shadow:
+      40px 120px #FFFBCB,
+      40px 200px #FFFBCB,
+      260px 40px #FFFBCB,
+      260px 120px #FFFBCB,
+      260px 200px #FFFBCB;
+  }
+
+  .square::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    background: #FFFBCB;
+    top: 40px;
+    left: 40px;
+  }
+
+.thin {
+  width: 120px;
+  height: 20px;
+  box-shadow: 
+  140px 120px #FFFBCC;
+}
+
+.thin::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  background: #FFFBCB;
+  top: 100px;
+  left: 140px;
+  }
+</style>
