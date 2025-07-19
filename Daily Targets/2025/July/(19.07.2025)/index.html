@@ -1,0 +1,39 @@
+<div class="light_purple"></div>
+<div class="purple"></div>
+<style>
+* {
+  background: #B6EBE7;
+  position: fixed;
+}
+
+.light_purple {
+  width: 40px;
+  height: 160px;
+  background: #9382E4;
+  top: 70px;
+  left: 25px;
+  box-shadow: 
+  95px 0px #9382E4,
+  215px 0px #9382E4,
+  310px 0px #9382E4
+}
+
+.light_purple::after {
+  content: '';
+  position: fixed;
+  width: 40px;
+  height: 160px;
+  background: #9382E4;
+  transform: translate(155px, 100px) rotate(90deg);
+}
+
+.purple {
+  width: 135px;
+  height: 80px; 
+  background: #5E2BB7;
+  top: 110px;
+  left: 25px;
+  box-shadow: 
+  215px 0px #5E2BB7
+}
+</style>
