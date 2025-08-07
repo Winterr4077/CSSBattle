@@ -7,7 +7,7 @@
 <h1 align="center">My Stats</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dce1d545-8d46-4883-8a56-25e21f5f7a5b">
+  <img src="https://github.com/user-attachments/assets/5a053d6f-907f-49ea-a478-1a6be78e5b12">
 </p>
 
 <h1 align="center">Global Stats</h1>
