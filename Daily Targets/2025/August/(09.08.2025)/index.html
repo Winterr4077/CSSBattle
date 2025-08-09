@@ -1,0 +1,62 @@
+<div class="fade"></div>
+<div class="fade"></div>
+<div class="fade"></div>
+<div class=semi>
+<div class=right>
+<div class=left>
+<style>
+*{
+  background: #FADE8B;
+
+.fade {
+  position: absolute;
+  width: 40px;
+  height: 185px;
+  top: 90px;
+  left: 80px;
+  background: linear-gradient(
+    to bottom,
+    #31938C 155px,
+    #135853 30px,
+    #135853 100%
+  );
+}
+.fade:nth-child(2) { left: 180px; }
+.fade:nth-child(3) { left: 280px; }
+
+.semi
+    {
+      background: transparent;
+      color: #31938C;
+      border: solid;
+      border-width: 40px 40px 0;
+      width: 60px;
+      height: 40px;
+      margin: 25px 72px;
+      border-radius: 95px 95px 0 0;
+    }
+.right
+    {
+      background: transparent;
+      color: #31938C;
+      border: solid;
+      border-width: 40px 40px 0;
+      width: 60px;
+      height: 40px;
+      margin: -40px 60px;
+      border-radius: 95px 95px 0 0;
+    }
+.left
+    {
+      background: transparent;
+      color: #31938C;
+      border: solid;
+      border-width: 40px 40px 0;
+      width: 60px;
+      height: 40px;
+      margin: -40px -240px;
+      border-radius: 95px 95px 0 0;
+      clip-path: inset(0 0 0 50%)
+    }
+}
+</style>
