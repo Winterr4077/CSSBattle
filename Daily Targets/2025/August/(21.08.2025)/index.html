@@ -1,44 +1,8 @@
-<div class="square"></div>
-<div class="semi"></div>
-<div class="rectangle"></div>
+<body style=margin:0;background:#526766;color:#B9C99F>
+<i></i><i></i><i></i>
 <style>
-* {
-  position: fixed;
-  background:#526766
-}
-
-.square, .semi, .rectangle {
-  background: #B9C99F;
-}
-
-.semi {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  top: 50px;
-  left: 125px;
-  box-shadow: 
-  100px 0 #B9C99F;
-}
-.rectangle {
-  width: 175px;
-  height: 50px;
-  top: 150px; 
-  left: 0px;
-  box-shadow:
-  225px 0 #B9C99F;
-}
-.square {
-  width: 50px;
-  height: 50px;
-  top: 0;
-  left: 0;
-  box-shadow: 
-  350px 0 #B9C99F,
-  50px 50px #B9C99F,
-  300px 50px #B9C99F,
-  100px 50px #B9C99F,
-  250px 50px #B9C99F,
-  0px 100px #B9C99F,
-  350px 100px #B9C99F;}
+i{position:fixed;width:50px;height:50px;background:currentColor}
+i:first-child{box-shadow:350px 0,50px 50px,300px 50px,100px 50px,250px 50px,0 100px,350px 100px}
+i:nth-child(2){border-radius:50%;top:50px;left:125px;box-shadow:100px 0}
+i:nth-child(3){width:175px;top:150px;box-shadow:225px 0}
 </style>
