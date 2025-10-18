@@ -13,5 +13,5 @@
 <h1 align="center">Global Stats</h1>
 
 <p align="center">
-  <img src="s://github.com/user-attachments/assets/d4653514-88aa-4abc-8b3f-cfa7719afba7">
+  <img src="https://github.com/user-attachments/assets/1a151149-f5c3-4e12-88ca-5b13d7e14f27">
 </p>
